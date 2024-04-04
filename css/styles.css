@@ -1,4 +1,14 @@
-
+span {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+div {
+    /* display: inline; */
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
 
 /* h1 {
     color: orange;
@@ -27,5 +37,5 @@ ul {
 li {
     list-style-type: none;
     /* text-shadow: 2px 2px lightgray; */
-    text-shadow: 2px 2px #E9E9E9;
-} */ */
+    /*text-shadow: 2px 2px #E9E9E9;
+} */
