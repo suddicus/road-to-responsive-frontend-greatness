@@ -8,6 +8,13 @@ header {
     top: 0;
     left: 0;
 }
+header h1 {
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
 .banner {
     position: relative;
 }
@@ -27,4 +34,27 @@ header {
 }
 .banner h2 span {
     font-size: 1.3em;
+}
+nav {
+    background-color: #F4F4F4;
+    padding: 20px;
+    position: sticky;
+    top: 148px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a {
+    text-decoration: none;
+    color: #4B4B4B;
+}
+nav li a.join {
+    color: #F63232;
 }
